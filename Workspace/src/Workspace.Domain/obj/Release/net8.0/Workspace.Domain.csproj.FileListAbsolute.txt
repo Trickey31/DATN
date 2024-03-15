@@ -1,0 +1,11 @@
+D:\Workspace\2024\ĐATN\Workspace\src\Workspace.Domain\bin\Release\net8.0\Workspace.Domain.deps.json
+D:\Workspace\2024\ĐATN\Workspace\src\Workspace.Domain\bin\Release\net8.0\Workspace.Domain.dll
+D:\Workspace\2024\ĐATN\Workspace\src\Workspace.Domain\bin\Release\net8.0\Workspace.Domain.pdb
+D:\Workspace\2024\ĐATN\Workspace\src\Workspace.Domain\obj\Release\net8.0\Workspace.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\2024\ĐATN\Workspace\src\Workspace.Domain\obj\Release\net8.0\Workspace.Domain.AssemblyInfoInputs.cache
+D:\Workspace\2024\ĐATN\Workspace\src\Workspace.Domain\obj\Release\net8.0\Workspace.Domain.AssemblyInfo.cs
+D:\Workspace\2024\ĐATN\Workspace\src\Workspace.Domain\obj\Release\net8.0\Workspace.Domain.csproj.CoreCompileInputs.cache
+D:\Workspace\2024\ĐATN\Workspace\src\Workspace.Domain\obj\Release\net8.0\Workspace.Domain.dll
+D:\Workspace\2024\ĐATN\Workspace\src\Workspace.Domain\obj\Release\net8.0\refint\Workspace.Domain.dll
+D:\Workspace\2024\ĐATN\Workspace\src\Workspace.Domain\obj\Release\net8.0\Workspace.Domain.pdb
+D:\Workspace\2024\ĐATN\Workspace\src\Workspace.Domain\obj\Release\net8.0\ref\Workspace.Domain.dll

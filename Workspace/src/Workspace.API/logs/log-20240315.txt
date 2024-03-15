@@ -1,0 +1,34 @@
+2024-03-15 20:57:46.820 +07:00 [ERR] No service for type 'MediatR.IRequestHandler`2[Workspace.Contract.CreateTaskCommand,Workspace.Contract.Result]' has been registered.
+System.InvalidOperationException: No service for type 'MediatR.IRequestHandler`2[Workspace.Contract.CreateTaskCommand,Workspace.Contract.Result]' has been registered.
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at MediatR.Wrappers.RequestHandlerWrapperImpl`2.<>c__DisplayClass1_0.<Handle>g__Handler|0()
+   at Workspace.Application.PerformancePipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Workspace\Workspace\src\Workspace.Application\Behaviors\PerfomancePipelineBehavior.cs:line 23
+   at Workspace.Application.TracingPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Workspace\Workspace\src\Workspace.Application\Behaviors\TracingPipelineBehavior.cs:line 23
+   at Workspace.Application.TransactionPipelineBehavior`2.<>c__DisplayClass3_0.<<Handle>b__0>d.MoveNext() in D:\Workspace\Workspace\src\Workspace.Application\Behaviors\TransactionPipelineBehavior.cs:line 36
+--- End of stack trace from previous location ---
+   at Workspace.Application.TransactionPipelineBehavior`2.<>c__DisplayClass3_0.<<Handle>b__0>d.MoveNext() in D:\Workspace\Workspace\src\Workspace.Application\Behaviors\TransactionPipelineBehavior.cs:line 39
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.<>c__DisplayClass30_0`2.<<ExecuteAsync>b__0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteImplementationAsync[TState,TResult](Func`4 operation, Func`4 verifySucceeded, TState state, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.ExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Workspace.Application.TransactionPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Workspace\Workspace\src\Workspace.Application\Behaviors\TransactionPipelineBehavior.cs:line 32
+   at Workspace.Application.ValidationDefaultBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Workspace\Workspace\src\Workspace.Application\Behaviors\ValidationDefaultBehavior.cs:line 33
+   at Workspace.Application.ValidationPipelineBehavior`2.Handle(TRequest request, RequestHandlerDelegate`1 next, CancellationToken cancellationToken) in D:\Workspace\Workspace\src\Workspace.Application\Behaviors\ValidationPipelineBehavior.cs:line 41
+   at Workspace.Presentation.TaskController.CreateTask(CreateTaskCommand createTask) in D:\Workspace\Workspace\src\Workspace.Presentation\Controller\V1\TaskController.cs:line 54
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Workspace.API.ExceptionHandlingMiddleware.InvokeAsync(HttpContext context, RequestDelegate next) in D:\Workspace\Workspace\src\Workspace.API\Middleware\ExceptionHandlingMiddleware.cs:line 18

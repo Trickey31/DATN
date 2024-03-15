@@ -1,0 +1,15 @@
+D:\Workspace\2024\ĐATN\Workspace\src\Workspace.Application\bin\Release\net8.0\Workspace.Application.deps.json
+D:\Workspace\2024\ĐATN\Workspace\src\Workspace.Application\bin\Release\net8.0\Workspace.Application.dll
+D:\Workspace\2024\ĐATN\Workspace\src\Workspace.Application\bin\Release\net8.0\Workspace.Application.pdb
+D:\Workspace\2024\ĐATN\Workspace\src\Workspace.Application\bin\Release\net8.0\Workspace.Domain.dll
+D:\Workspace\2024\ĐATN\Workspace\src\Workspace.Application\bin\Release\net8.0\Workspace.Domain.pdb
+D:\Workspace\2024\ĐATN\Workspace\src\Workspace.Application\obj\Release\net8.0\Workspace.Application.csproj.AssemblyReference.cache
+D:\Workspace\2024\ĐATN\Workspace\src\Workspace.Application\obj\Release\net8.0\Workspace.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\2024\ĐATN\Workspace\src\Workspace.Application\obj\Release\net8.0\Workspace.Application.AssemblyInfoInputs.cache
+D:\Workspace\2024\ĐATN\Workspace\src\Workspace.Application\obj\Release\net8.0\Workspace.Application.AssemblyInfo.cs
+D:\Workspace\2024\ĐATN\Workspace\src\Workspace.Application\obj\Release\net8.0\Workspace.Application.csproj.CoreCompileInputs.cache
+D:\Workspace\2024\ĐATN\Workspace\src\Workspace.Application\obj\Release\net8.0\Workspace.Application.csproj.CopyComplete
+D:\Workspace\2024\ĐATN\Workspace\src\Workspace.Application\obj\Release\net8.0\Workspace.Application.dll
+D:\Workspace\2024\ĐATN\Workspace\src\Workspace.Application\obj\Release\net8.0\refint\Workspace.Application.dll
+D:\Workspace\2024\ĐATN\Workspace\src\Workspace.Application\obj\Release\net8.0\Workspace.Application.pdb
+D:\Workspace\2024\ĐATN\Workspace\src\Workspace.Application\obj\Release\net8.0\ref\Workspace.Application.dll

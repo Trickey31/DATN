@@ -1,0 +1,15 @@
+D:\Workspace\2024\ĐATN\Workspace\src\Workspace.Persistence\bin\Release\net8.0\Workspace.Persistence.deps.json
+D:\Workspace\2024\ĐATN\Workspace\src\Workspace.Persistence\bin\Release\net8.0\Workspace.Persistence.dll
+D:\Workspace\2024\ĐATN\Workspace\src\Workspace.Persistence\bin\Release\net8.0\Workspace.Persistence.pdb
+D:\Workspace\2024\ĐATN\Workspace\src\Workspace.Persistence\bin\Release\net8.0\Workspace.Domain.dll
+D:\Workspace\2024\ĐATN\Workspace\src\Workspace.Persistence\bin\Release\net8.0\Workspace.Domain.pdb
+D:\Workspace\2024\ĐATN\Workspace\src\Workspace.Persistence\obj\Release\net8.0\Workspace.Persistence.csproj.AssemblyReference.cache
+D:\Workspace\2024\ĐATN\Workspace\src\Workspace.Persistence\obj\Release\net8.0\Workspace.Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\Workspace\2024\ĐATN\Workspace\src\Workspace.Persistence\obj\Release\net8.0\Workspace.Persistence.AssemblyInfoInputs.cache
+D:\Workspace\2024\ĐATN\Workspace\src\Workspace.Persistence\obj\Release\net8.0\Workspace.Persistence.AssemblyInfo.cs
+D:\Workspace\2024\ĐATN\Workspace\src\Workspace.Persistence\obj\Release\net8.0\Workspace.Persistence.csproj.CoreCompileInputs.cache
+D:\Workspace\2024\ĐATN\Workspace\src\Workspace.Persistence\obj\Release\net8.0\Workspace.Persistence.csproj.CopyComplete
+D:\Workspace\2024\ĐATN\Workspace\src\Workspace.Persistence\obj\Release\net8.0\Workspace.Persistence.dll
+D:\Workspace\2024\ĐATN\Workspace\src\Workspace.Persistence\obj\Release\net8.0\refint\Workspace.Persistence.dll
+D:\Workspace\2024\ĐATN\Workspace\src\Workspace.Persistence\obj\Release\net8.0\Workspace.Persistence.pdb
+D:\Workspace\2024\ĐATN\Workspace\src\Workspace.Persistence\obj\Release\net8.0\ref\Workspace.Persistence.dll

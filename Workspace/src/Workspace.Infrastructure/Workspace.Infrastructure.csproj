@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Workspace.Application\Workspace.Application.csproj" />
+    <ProjectReference Include="..\Workspace.Persistence\Workspace.Persistence.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Authentication\" />
+    <Folder Include="Caching\" />
+    <Folder Include="DependencyInjection\Extensions\" />
+  </ItemGroup>
+
+</Project>
